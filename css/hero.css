@@ -1,0 +1,92 @@
+.hero {
+  background-image: url("../assets/imgs/hero.png");
+  height: calc(100vh - 55px);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 55px;
+  background-position: 40%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+.hero::after {
+  content: "";
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #00000090;
+}
+.hero .margin {
+  text-align: center;
+  color: white;
+  z-index: 10;
+}
+
+.hero .title {
+  font-size: 42px;
+}
+.hero .subtitle {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 24px;
+  line-height: 36px;
+}
+.hero .herobutton {
+  background-color: #00a4ef;
+  font-size: 20px;
+  color: white;
+  padding: 15px 30px;
+}
+.hero .herologo {
+  position: absolute;
+  display: block;
+
+  right: 50%;
+  transform: translateX(50%);
+  bottom: 30px;
+  width: 140px;
+}
+@media (min-width: 1024px) {
+  .hero {
+    background-size: 100%;
+    height: calc(100vh - 123px);
+    padding-top: 123px;
+    justify-content: left;
+  }
+
+  .hero .margin {
+    text-align: left;
+  }
+
+  .hero .title {
+    font-size: 70px;
+  }
+  .hero .subtitle {
+    font-size: 30px;
+    margin-bottom: 100px;
+  }
+  .hero .herobutton {
+    font-size: 25px;
+    padding: 15px 70px 15px 40px;
+  }
+  .hero .herologo {
+    bottom: 85px;
+    right: 120px;
+    transform: translateX(0);
+  }
+  .hero .boxLogo::after {
+    position: absolute;
+    content: "";
+    border: white solid;
+    border-bottom: 2px;
+    border-left: 2px;
+    bottom: 85px;
+    height: 25px;
+    width: 25px;
+    left: 120px;
+    transform: rotate(135deg);
+  }
+}

@@ -1,0 +1,136 @@
+.secondSection {
+  padding-top: 80px;
+}
+.secondSection .ssTitle {
+  color: #2571b7;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.secondSection .ssBoxTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.secondSection .ssBoxText {
+  color: #737373;
+  line-height: 18px;
+}
+
+.secondSection .ssBoxButton {
+  border: 1px solid;
+  margin-top: 12px;
+  display: inline-block;
+  padding: 10px 5px;
+  font-weight: bold;
+}
+
+.secondSection .ssBoxImg {
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.secondSection .ssIcon {
+  height: 35px;
+  width: 35px;
+  padding: 18px;
+}
+.secondSection .ssLine {
+  color: #dedede;
+  margin: 18px 0 12px;
+}
+.secondSection .ssBox {
+  display: flex;
+  align-items: center;
+}
+
+.secondSection #ssBox1 .ssBoxTitle,
+.secondSection #ssBox1 .ssBoxButton {
+  color: #7fba00;
+  border-color: #7fba00;
+}
+.secondSection #ssBox1 .ssBoxImg {
+  background-color: #7fba00;
+}
+
+.secondSection #ssBox2 .ssBoxTitle,
+.secondSection #ssBox2 .ssBoxButton {
+  color: #00a4ef;
+  border-color: #00a4ef;
+}
+.secondSection #ssBox2 .ssBoxImg {
+  background-color: #00a4ef;
+}
+
+.secondSection #ssBox3 .ssBoxTitle,
+.secondSection #ssBox3 .ssBoxButton {
+  color: #ffb900;
+  border-color: #ffb900;
+}
+.secondSection #ssBox3 .ssBoxImg {
+  background-color: #ffb900;
+}
+
+.secondSection .ssBoxImg.desk {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .secondSection .ssBoxImg.desk {
+    display: inline-block;
+  }
+
+  .secondSection .ssTitle {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  .secondSection .ssBoxers {
+    display: flex;
+    align-items: center;
+  }
+  .secondSection .ssBox {
+    text-align: center;
+  }
+  .secondSection .ssIcon {
+    height: 70px;
+    width: 70px;
+    padding: 36px;
+  }
+  .secondSection .ssBoxTitle {
+    font-size: 20px;
+    margin: 36px 0;
+    position: relative;
+  }
+
+  .secondSection .ssBoxTitle::after {
+    content: "";
+    position: absolute;
+    width: 18%;
+    background-color: #dedede;
+    height: 4px;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .secondSection .ssBoxText {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .secondSection .ssBoxButton {
+    border: 3px solid;
+    margin-top: 24px;
+    font-size: 16px;
+  }
+  .secondSection .ssBoxImg.mobile {
+    display: none;
+  }
+  .secondSection #ssBox2 {
+    margin: 0 100px;
+  }
+}

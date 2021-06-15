@@ -1,0 +1,57 @@
+.thirdSection {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.thirdSection .tsTitle {
+  color: #2571b7;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+.thirdSection .tsCell {
+  border: 1px solid #dedede;
+  padding: 18px;
+}
+
+.thirdSection .tsCellTitle {
+  color: #cb4a32;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.thirdSection .tsCellText {
+  color: #737373;
+  line-height: 18px;
+}
+
+@media (min-width: 1024px) {
+  .thirdSection .tsTitle {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  .thirdSection .tsTable {
+    display: flex;
+  }
+
+  .thirdSection .tsCell {
+    border-top: 6px solid #dedede;
+    border-bottom: 6px solid #dedede;
+    border-right: 6px solid #dedede;
+    padding: 32px 26px;
+  }
+  .thirdSection .tsCell:first-child {
+    border-left: 6px solid #dedede;
+  }
+  .thirdSection .tsCellTitle {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+  .thirdSection .tsCellText {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

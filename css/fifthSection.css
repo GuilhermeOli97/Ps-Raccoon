@@ -1,0 +1,67 @@
+.fifthSection {
+  padding-top: 80px;
+  color: #737373;
+}
+
+.fifthSection .fftext {
+  text-align: center;
+
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.fifthSection .ffform {
+  margin-top: 25px;
+  background-color: #dedede;
+  padding: 25px;
+}
+.fifthSection .label {
+  margin-bottom: 8px;
+  display: block;
+  font-size: 14px;
+}
+
+.fifthSection .input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+  font-size: 16px;
+  border: 2px solid white;
+  margin-bottom: 25px;
+  color: #737373;
+  border-radius: 0;
+}
+
+.fifthSection .input:focus {
+  outline-color: #094ab2;
+}
+
+.fifthSection .formButton {
+  padding: 20px;
+  font-size: 24px;
+  background-color: #00a4ef;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  align-items: center;
+  border: none;
+}
+
+.fifthSection .labelFocus {
+  color: #094ab2;
+}
+
+@media (min-width: 1024px) {
+  .fifthSection .fftext {
+    font-size: 24px;
+  }
+  .fifthSection .ffform {
+    background-color: #dedede;
+    margin: 50px 300px 0;
+    padding: 35px 50px 50px;
+  }
+}

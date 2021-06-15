@@ -1,0 +1,128 @@
+.firstSection {
+  padding-top: 80px;
+}
+
+.firstSection .fsText {
+  text-align: center;
+  color: #737373;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+.firstSection .fsTitle {
+  color: #2571b7;
+  margin-top: 60px;
+  margin-bottom: 35px;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+.firstSection .fsBox {
+  margin-bottom: 24px;
+  padding: 30px 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.firstSection #fsBox1 {
+  background-color: #2571b7;
+}
+.firstSection #fsBox2 {
+  background-color: #2c5898;
+}
+.firstSection #fsBox3 {
+  background-color: #207245;
+}
+.firstSection #fsBox4 {
+  background-color: #cb4a32;
+}
+.firstSection #fsBox5 {
+  background-color: #733781;
+}
+.firstSection #fsBox6 {
+  background-color: #00a4ef;
+}
+.firstSection .fsBoxImg {
+  margin-right: 15px;
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+}
+.firstSection .fsBoxTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.firstSection .fsBoxText {
+  line-height: 18px;
+}
+.firstSection .fsBox.desk {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .firstSection .fshTextSpan {
+    color: #cb4a32;
+    font-weight: bold;
+  }
+  .firstSection .fsText {
+    font-size: 20px;
+  }
+
+  .firstSection .fsTitle {
+    font-size: 36px;
+  }
+  .firstSection .fsBoxTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  .firstSection .fsboxDesk {
+    display: flex;
+    font-size: 16px;
+  }
+  .firstSection .fsBox.desk {
+    display: flex;
+  }
+  .firstSection #fsBox1 {
+    background-color: #0072c6;
+  }
+  .firstSection #fsBox2 {
+    background-color: #1b6f41;
+  }
+  .firstSection #fsBox3 {
+    background-color: #743881;
+  }
+  .firstSection #fsBox4 {
+    background-color: #094ab2;
+  }
+  .firstSection #fsBox5 {
+    background-color: #0093be;
+  }
+  .firstSection #fsBox6 {
+    background-color: #2c5898;
+    margin-left: 45px;
+  }
+  .firstSection #fsBox7 {
+    background-color: #cb4a32;
+    margin-left: 45px;
+  }
+  .firstSection #fsBox8 {
+    background-color: #00aff0;
+    margin-left: 45px;
+  }
+  .firstSection #fsBox9 {
+    background-color: #2a83cc;
+    margin-left: 45px;
+  }
+  .firstSection #fsBox10 {
+    background-color: #5558af;
+    margin-left: 45px;
+  }
+  .firstSection .fsBoxImg {
+    margin-right: 15px;
+    width: 100%;
+    height: auto;
+    max-width: 70px;
+  }
+}

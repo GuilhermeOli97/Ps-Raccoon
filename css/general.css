@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "segoeui";
+  src: url("../assets/fonts/segoeui.ttf");
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "segoeui";
+  src: url("../assets/fonts/segoeuib.ttf");
+  font-weight: bold;
+  font-display: swap;
+}
+
+html {
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "segoeui";
+}
+a {
+  text-decoration: none;
+}
+.margin {
+  margin: 0 24px;
+}
+.desk {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .margin {
+    margin: 0 120px;
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media (min-width: 1440px) {
+  .margin {
+    margin-left: calc((100vw - 1200px) / 2);
+    margin-right: calc((100vw - 1200px) / 2);
+  }
+}
